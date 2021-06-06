@@ -9,6 +9,7 @@ sock.bind((host,port))
 
 ##Listen to one request at a time
 sock.listen(1) 
+print("The server is listening to client requests")
 
 ## This returns 1. connection where the request comes from and the address 
 con, address = sock.accept()
